@@ -1,13 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import logo from './assets/img/logo.svg';
+import './assets/css/App.css';
+/** Importar componentes manuales */
+import PeticionApi from './components/PeticionApi.js';
+  
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello Word! 
         </p>
         <a
           className="App-link"
@@ -18,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <section>
+        <PeticionApi />
+      </section>
     </div>
   );
 }

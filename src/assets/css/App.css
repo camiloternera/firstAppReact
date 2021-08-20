@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+/*===== Components =====*/
+  /* PeticionApi */
+  .subtitle {
+    font-size: 40px;
+  }
+  .options {
+    width: 50%;
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+  .content {
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    background-color: red;
+    padding: 10px;
+    color: white;
+  }
+  .content__title {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .content__userId {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+  }
+  .content__body {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
